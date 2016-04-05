@@ -1,0 +1,19 @@
+{
+  "name": "qna",
+  "version": "1.0.0",
+  "description": "a Q&A app",
+  "main": "/server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaAvi/QNA.git"
+  },
+  "author": "Avi Yaakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaAvi/QNA/issues"
+  },
+  "homepage": "https://github.com/YaAvi/QNA#readme"
+}
