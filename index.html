@@ -8,22 +8,14 @@
     </head>
     <body>
         <div ng-controller="QuestionController">
-            <div class="left-side">
-                <div ng-repeat="question in leftSide">
-                    <question-card question="question"/>
-                </div>
-            </div>
-            <div class="right-side">
-                <div ng-repeat="question in rightSide">
-                    <question-card question="question"/>
-                </div>
-            </div>
+            <questions-area/>
         </div>
         
         <script src="js/lib/angular/angular.js"></script>
         <script src="js/app.js"></script>
         <script src="js/services/questionsData.js"></script>
-        <script src="js/directives/Question.js"></script>
+        <script src="js/directives/QuestionCard.js"></script>
+        <script src="js/directives/QuestionsArea.js"></script>
         <script src="js/controllers/QuestionController.js"></script>
         
     </body>

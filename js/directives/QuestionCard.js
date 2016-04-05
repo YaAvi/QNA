@@ -3,7 +3,7 @@ qna.directive('questionCard', function () {
     return {
         restrict: 'E',
         replace: true,
-        templateUrl: '/templates/question.html',
+        templateUrl: '/templates/questionCard.html',
         scope: {
             question: '=',
             answers: '='
