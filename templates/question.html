@@ -1,0 +1,15 @@
+<div class="qna-container">
+    <div class="question" question="question">
+        <div class="question-icon">Q</div>
+        {{question.question}}
+    </div>
+    <hr>
+    <div class="answers">
+        <div class="answer-icon">A</div>
+        <div class="answer" ng-repeat="answer in question.answers">
+            <div answer="answer">
+                {{answer}}
+            </div>
+        </div>
+    </div>
+</div>
