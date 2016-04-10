@@ -6,7 +6,7 @@
     <hr>
     <div class="answers">
         <div class="answer-icon">A</div>
-        <div class="answer" ng-repeat="answer in question.answers">
+        <div class="answer" ng-repeat="answer in question.answers | limitTo:5">
             <div answer="answer">
                 {{answer}}
             </div>

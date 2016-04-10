@@ -7,6 +7,11 @@ body {
     background-color: rgb(232, 232, 232);
 }
 
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 .qna-container {
     margin: 10px auto;
     max-width: 380px;

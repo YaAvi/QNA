@@ -4,7 +4,7 @@ qna.factory('questionData', function () {
         questions: [
             {
                 question: 'Who are you?',
-                answers: ['asd', 'asdas', 'asdasd']
+                answers: ['asd', 'asdas', 'asdasd', 'kjsdh']
             },
             {
                 question: 'What are you?',
